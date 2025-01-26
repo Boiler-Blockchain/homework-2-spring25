@@ -8,7 +8,6 @@
 
    ```bash
    git clone https://github.com/Boiler-Blockchain/homework-5-spring23.git
-   ```
 
 3. Open a terminal in the folder that was cloned.
 4. Type `npm install` (this should download all necessary packages).
