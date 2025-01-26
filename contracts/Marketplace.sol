@@ -1,18 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-/* 
- * NOTE: 
- * You have to complete the required functions in both "AssetFactory" and the
- * "MarketPlace" contracts for this assignment.
- * 
- * The "Auction" contract is provided by us to help simulate an auction environment
- * for the test cases. You are not required to modify this contract to get credit
- * however, it is highly recommended to understand its functionality for the greater
- * leaning process.
- * 
- */
-
 // TODO: Digital ownership
 contract AssetFactory {
    struct DigitalAsset {

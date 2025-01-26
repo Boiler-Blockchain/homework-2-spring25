@@ -6,7 +6,7 @@
 2. Clone the GitHub repository:
 
    ```bash
-   git clone https://github.com/Boiler-Blockchain/homework-5-spring23.git
+   https://github.com/Boiler-Blockchain/homework-3-spring25.git
    ```
 3. Open a terminal in the folder that was cloned.
 4. Type `npm install` (this should download all necessary packages).
@@ -16,6 +16,9 @@ You can now place your smart contract inside the `contracts` folder, and run `np
 ## Introduction
 
 Assignment 3 involves the development of a digital asset management system and an integrated marketplace using Solidity. Students will create a smart contract, `AssetFactory`, to mint, transfer, and edit digital assets, and extend it by developing a `MarketPlace` contract that allows users to put their assets up for sale in auctions and bid on others' assets.
+
+> **Note**: The `Auction` contract is provided to simulate an auction environment for the test cases.  
+> While you are not required to modify this contract to receive credit, it is highly recommended that you review and understand its functionality as part of the learning process.
 
 ## AssetFactory Overview
 
