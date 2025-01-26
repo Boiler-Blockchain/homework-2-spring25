@@ -1,31 +1,28 @@
-Here’s the README written in Markdown format for you to copy and paste:
-
 ```markdown
-# Homework 5 for the BoilerBlockchain Technical Course (Spring 2023)
+# Homework 3 for the BoilerBlockchain Technical Course (Spring 2025)
 
 ## Setup
 
-1. Download NodeJS if you don’t already have it: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-2. Clone the GitHub repository:
+1. Download NodeJS if you don’t already have it: https://nodejs.org/en/download/
+2. Clone the github repository:
 
-   ```bash
-   git clone https://github.com/Boiler-Blockchain/homework-5-spring23.git
-   ```
+git clone https://github.com/Boiler-Blockchain/homework-5-spring23.git
 
-3. Open a terminal in the folder that was cloned.
-4. Type `npm install` (this should download all necessary packages).
 
-You can now place your smart contract inside the `contracts` folder, and run `npx hardhat test` in the terminal to test the smart contract.
+3. Open a terminal in the folder that was cloned
+4. Type npm install (this should download all necessary packages)
+
+You can now place your smart contract inside the contracts folder, and run npx hardhat test in the terminal to test the smart contract.
 
 ---
 
-## Week 5 Assignment: Digital Asset Management
-
 ### Introduction
 
-Week 5's assignment involves the development of a digital asset management system using Solidity. Students will create a smart contract, `AssetFactory`, to mint, transfer, and edit digital assets.
+Assignment 3 involves the development of a digital asset management system and an integrated marketplace using Solidity. Students will create a smart contract, `AssetFactory`, to mint, transfer, and edit digital assets, and extend it by developing a `MarketPlace` contract that allows users to put their assets up for sale in auctions and bid on others' assets.
 
-### Contract Overview
+---
+
+### AssetFactory Overview
 
 The `AssetFactory` contract enables the creation and management of digital assets. Each asset is represented as a struct with a name and an owner. The contract includes functions for minting new assets, transferring ownership, editing asset details, and querying assets owned by a particular address.
 
@@ -51,13 +48,7 @@ Returns a list of asset IDs owned by a specific address.
 
 ---
 
-## Week 6 Assignment: Marketplace with Auction and Asset Management
-
-### Introduction
-
-In Week 6, students will develop a `MarketPlace` contract using Solidity. This contract integrates an auction system with digital asset management, allowing users to put their assets up for sale in auctions and to bid on others' assets.
-
-### Contract Overview
+### MarketPlace Overview
 
 The `MarketPlace` contract extends the `AssetFactory` contract to manage digital assets. It includes functionality for listing assets in auctions, bidding on auctions, and settling auctions, transferring asset ownership to the highest bidder.
 
@@ -93,5 +84,5 @@ Submit the following on Brightspace:
 
 - Make sure to thoroughly test your contracts with the provided test scripts.
 - Follow the coding standards discussed in class for smart contract development.
-- If you encounter issues, refer to the Solidity documentation or reach out for help.
+- If you encounter issues, refer to the Solidity documentation or reach out for help during office hours (The schedule can be found in the syllabus on Brightspace)
 ```
