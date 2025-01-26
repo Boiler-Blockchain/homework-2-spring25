@@ -1,4 +1,3 @@
-```markdown
 # Homework 3 for the BoilerBlockchain Technical Course (Spring 2025)
 
 ## Setup
@@ -8,7 +7,7 @@
 
    ```bash
    git clone https://github.com/Boiler-Blockchain/homework-5-spring23.git
-
+   ```
 3. Open a terminal in the folder that was cloned.
 4. Type `npm install` (this should download all necessary packages).
 
@@ -74,5 +73,4 @@ Submit the following on Brightspace:
 
 - Make sure to thoroughly test your contracts with the provided test scripts.
 - Follow the coding standards discussed in class for smart contract development.
-- If you encounter issues, refer to the Solidity documentation or reach out for help during office hours (The schedule can be found in the syllabus on Brightspace).
-```
+- If you encounter issues, refer to the Solidity documentation or reach out for help during office hours (The schedule can be found in the syllabus on Brightspace)
