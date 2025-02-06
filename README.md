@@ -11,8 +11,6 @@
 3. Open a terminal in the folder that was cloned.
 4. Type `npm install` (this should download all necessary packages).
 
-You can now place your smart contract inside the `contracts` folder, and run `npx hardhat test` in the terminal to test the smart contract.
-
 ## Introduction
 
 Assignment 3 involves the development of a digital asset management system and an integrated marketplace using Solidity. Students will create a smart contract, `AssetFactory`, to mint, transfer, and edit digital assets, and extend it by developing a `MarketPlace` contract that allows users to put their assets up for sale in auctions and bid on others' assets.
@@ -64,6 +62,20 @@ Enables users to bid in an auction using the auction ID.
 
 #### 3. `settleAuction` Function
 Settles an auction, transferring ownership of the asset to the highest bidder.
+
+## Testing
+
+Testing is an important part of the assignment to ensure that the `AssetFactory` and `MarketPlace` contracts work as expected. The testing suite uses the [Hardhat framework](https://hardhat.org/) to run and manage tests.
+
+### How to Run the Tests
+1. Ensure all your smart contract inside the `contracts` folder!
+
+2. Run the test suite on the terminal (make sure you are in the correct directory/file) using:
+   ```bash
+   npx hardhat test
+   ```
+
+This will execute all the test scripts located in the `test` directory.
 
 ## Submission (100 points)
 
