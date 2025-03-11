@@ -6,7 +6,7 @@
 2. Clone the GitHub repository:
 
    ```bash
-   https://github.com/Boiler-Blockchain/homework-2-spring25.git
+   git clone https://github.com/Boiler-Blockchain/homework-2-spring25.git
    ```
 3. Open a terminal in the folder that was cloned.
 4. Type `npm install` (this should download all necessary packages).
